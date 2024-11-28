@@ -1,10 +1,7 @@
 import { Dimensions, Image, StyleSheet, Text, View, Button, LogBox } from 'react-native'
 import React, { useState } from 'react'
 import Onboarding from 'react-native-onboarding-swiper';
-import LottieView from 'lottie-react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 import Animated, { FadeIn, FadeInLeft, FadeInRight } from 'react-native-reanimated';
-
 
 const Skip = ({ isLight, skipLabel, ...props }) => {
   return (
